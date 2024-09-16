@@ -9,7 +9,7 @@ $urlShortcut.TargetPath = $url
 
 
 # Append the icon information.
-'IconIndex=0', "IconFile=$iconPath" |"
-  Add-Content -LiteralPath $urlShortcutPath
+'IconIndex=0', "IconFile=$iconPath" 
+Add-Content -LiteralPath $urlShortcutPath
 
 $urlShortcut.Save()
